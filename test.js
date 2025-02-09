@@ -1,6 +1,5 @@
-function myfunction(){
-    document.open("text/html","replace");
-    document.write("<h2>Nusrat Apu valo </h2>");
-    document.close();
-    
-}
+function changethetext(){
+
+ const nusrat= document.getElementById("myId") ;
+ nusrat.innerHTML="Nusrat apu valo"
+}  
